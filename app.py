@@ -38,7 +38,7 @@ def transcribe_audio(audio_file):
         return None
 
 def summarize_text_with_gpt(text):
-    openai.api_key = "sk-proj-jTAYRCWChGn9JYwV7PYVT3BlbkFJOmHL9FFGEyWxTaxYOfZN"
+    openai.api_key = "insert your key"
     
     response = openai.Completion.create(
         engine="davinci",
